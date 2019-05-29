@@ -41,6 +41,7 @@
             android:paddingBottom="1dp"
             android:paddingTop="6dp"
             android:text="MyLoan"
+            android:visibility="gone"
             android:textColor="@color/colorPrimaryDark"
             android:textSize="21sp"
             android:textStyle="bold"/>
@@ -85,15 +86,18 @@
                         android:layout_width="0dp"
                         android:layout_weight="0.5"
                         app:cardElevation="2dp"
+                        app:cardUseCompatPadding="true"
                         android:layout_height="fill_parent">
 
                         <Button
                             android:id="@+id/enter_data"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="fill_parent"
                             android:padding="20dp"
+                            android:background="@android:color/white"
                             android:textAllCaps="false"
                             android:textSize="21sp"
+                            android:textColor="@color/colorPrimaryDark"
                             android:textStyle="normal"/>
 
                     </android.support.v7.widget.CardView>
@@ -102,6 +106,7 @@
                     <android.support.v7.widget.CardView
                         android:layout_width="0dp"
                         app:cardElevation="2dp"
+                        app:cardUseCompatPadding="true"
                         android:layout_height="fill_parent"
                         android:layout_weight="0.5">
 
@@ -110,6 +115,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="20dp"
+                            android:background="#ffffff"
+                            android:textColor="@color/colorPrimaryDark"
                             android:textAllCaps="false"
                             android:textSize="21sp"
                             android:textStyle="normal"/>
@@ -135,6 +142,7 @@
                         android:layout_width="0dp"
                         android:layout_height="fill_parent"
                         app:cardElevation="2dp"
+                        app:cardUseCompatPadding="true"
                         android:layout_weight="0.5">
 
                         <Button
@@ -142,6 +150,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="20dp"
+                            android:background="#ffffff"
+                            android:textColor="@color/colorPrimaryDark"
                             android:textAllCaps="false"
                             android:textSize="21sp"
                             android:textStyle="normal"/>
@@ -153,6 +163,7 @@
                         android:layout_width="0dp"
                         android:layout_weight="0.5"
                         app:cardElevation="2dp"
+                        app:cardUseCompatPadding="true"
                         android:layout_height="fill_parent">
 
                         <Button
@@ -162,6 +173,8 @@
                             android:padding="20dp"
                             android:text="@string/view_sent_forms"
                             android:textAllCaps="false"
+                            android:background="#ffffff"
+                            android:textColor="@color/colorPrimaryDark"
                             android:textSize="21sp"
                             android:textStyle="normal"/>
 
@@ -187,6 +200,7 @@
                         android:layout_width="0dp"
                         android:layout_weight="0.5"
                         app:cardElevation="2dp"
+                        app:cardUseCompatPadding="true"
                         android:layout_height="fill_parent">
 
                         <Button
@@ -194,6 +208,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:padding="20dp"
+                            android:background="#ffffff"
+                            android:textColor="@color/colorPrimaryDark"
                             android:textAllCaps="false"
                             android:textSize="21sp"
                             android:textStyle="normal"/>
@@ -205,13 +221,16 @@
                         android:layout_width="0dp"
                         android:layout_weight="0.5"
                         app:cardElevation="2dp"
+                        app:cardUseCompatPadding="true"
                         android:layout_height="fill_parent">
 
                         <Button
                             android:id="@+id/manage_forms"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="fill_parent"
                             android:padding="20dp"
+                            android:background="#ffffff"
+                            android:textColor="@color/colorPrimaryDark"
                             android:textAllCaps="false"
                             android:textSize="21sp"
                             android:textStyle="normal"/>

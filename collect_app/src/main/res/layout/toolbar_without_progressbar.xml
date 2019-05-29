@@ -10,4 +10,4 @@
     app:contentInsetStart="0dp"
     app:titleTextAppearance="@style/TextAppearance.TabsFont"
     app:contentInsetStartWithNavigation="0dp"
-    app:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+    app:theme="@style/ArrowTheme" />
