@@ -89,11 +89,11 @@ the specific language governing permissions and limitations under the License.
         android:supportsRtl="true">
         <provider
             android:name="org.odk.collect.app.provider.FormsProvider"
-            android:authorities="org.odk.collect.app.provider.odk.forms"
+            android:authorities="org.odk.collect.android.provider.odk.forms"
             android:exported="true" />
         <provider
             android:name="org.odk.collect.app.provider.InstanceProvider"
-            android:authorities="org.odk.collect.app.provider.odk.instances"
+            android:authorities="org.odk.collect.android.provider.odk.instances"
             android:exported="true" />
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -270,15 +270,15 @@ the specific language governing permissions and limitations under the License.
             android:required="false" />
 
         <activity
-            android:name="org.odk.collect.com.example.joshua.collect.app.location.GeoActivity"
+            android:name="org.odk.collect.app.location.GeoActivity"
             android:configChanges="orientation"
             android:exported="true" />
-        <activity android:name="org.odk.collect.com.example.joshua.collect.app.activities.WebViewActivity" />
+        <activity android:name="org.odk.collect.app.activities.WebViewActivity" />
         <activity android:name=".activities.CaptureSelfieVideoActivity" />
-        <activity android:name="org.odk.collect.com.example.joshua.collect.app.activities.CaptureSelfieVideoActivityNewApi" />
+        <activity android:name="org.odk.collect.app.activities.CaptureSelfieVideoActivityNewApi" />
 
         <receiver
-            android:name="org.odk.collect.com.example.joshua.collect.app.tasks.sms.SmsSentBroadcastReceiver"
+            android:name="org.odk.collect.app.tasks.sms.SmsSentBroadcastReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>
@@ -286,7 +286,7 @@ the specific language governing permissions and limitations under the License.
             </intent-filter>
         </receiver>
         <receiver
-            android:name="org.odk.collect.com.example.joshua.collect.app.tasks.sms.SmsNotificationReceiver"
+            android:name="org.odk.collect.app.tasks.sms.SmsNotificationReceiver"
             android:enabled="true"
             android:exported="false">
             <intent-filter>

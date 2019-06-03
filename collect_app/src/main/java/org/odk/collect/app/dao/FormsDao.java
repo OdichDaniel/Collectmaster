@@ -21,6 +21,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.provider.BaseColumns;
 import android.support.v4.content.CursorLoader;
+import android.util.Log;
 
 import org.odk.collect.app.application.Collect;
 import org.odk.collect.app.dto.Form;
@@ -148,6 +149,8 @@ public class FormsDao {
     }
 
     public Cursor getFormsCursorForFormFilePath(String formFilePath) {
+
+        Log.d("fuck", "File name:"+formFilePath);
         String selection = FormsProviderAPI.FormsColumns.FORM_FILE_PATH + "=?";
         String[] selectionArgs = {formFilePath};
 
